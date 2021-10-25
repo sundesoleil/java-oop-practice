@@ -3,7 +3,7 @@ package com.fastcampus.javaoop.logic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BubbleSort <T extends Comparable<T>>{
+public class BubbleSort <T extends Comparable<T>> implements Sort<T>{
 
     // 입력 리스트를 받아 정렬된 리스트를 출력
    public List<T> sort(List<T> list) {
